@@ -22,6 +22,7 @@ while (true){
 
     }else if (escolha === '4'){
         const nomes_tranformados = listaDeNomes.map(e=>e.toLocaleUpperCase())
+        console.log(listaDeNomes)
         console.log(`Nomes Transformados: ${nomes_tranformados}`) 
         break
     }else if (escolha === '5'){
